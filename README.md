@@ -3,14 +3,14 @@
 > 给 DeepSeek Harness 的 Web GUI 换上一层壁纸：**在设置里搜 wallhaven.cc，点一下就把那张图铺成界面背景**，并可以随时把原图存到本地。
 
 <p align="center">
-  <img src="https://img.shields.io/badge/DeepSeek_Harness-0.1.6_%E2%80%93_0.2.0--rc.1-4D6BFE?style=flat-square" alt="dsh 基线">
+  <img src="https://img.shields.io/badge/DeepSeek_Harness-0.1.6_%E2%80%93_0.2.1--rc.2-4D6BFE?style=flat-square" alt="dsh 基线">
   <img src="https://img.shields.io/badge/License-MIT-2EA44F?style=flat-square" alt="MIT">
   <img src="https://img.shields.io/badge/零依赖-无运行时依赖-8B5CF6?style=flat-square" alt="零依赖">
 </p>
 
 > **换了 Harness 版本先看这里。** 本插件不按版本号判断兼容性，而是**逐个接口探测**：
 > 每个调用独立成败，缺了哪一个就降级哪一个，并写进 **设置 → 壁纸 → 兼容性** 给你看。
-> `0.1.6-alpha.1`、`0.1.7-rc.2`、`0.2.0-rc.1` 三代都实测跑通；其它版本请看那一页的报告，而不是猜。
+> `0.1.6-alpha.1`、`0.1.7-rc.2`、`0.2.0-rc.1`、`0.2.1-rc.2` 都已实测跑通；其它版本请看那一页的报告，而不是猜。
 > 详见 [兼容性](#兼容性)。
 
 ---
@@ -208,6 +208,7 @@ DSH 是 nightly 节奏，而这个插件是从 git 装的 ——「你手上的�
 | `0.1.6-alpha.1` | Desktop Beta 2.0.11-beta.1 | 全部接口齐全（原始基线） |
 | `0.1.7-rc.2` | 桌面版 0.1.7-rc.2 | 全部接口齐全；过程中修掉了下面两个真问题 |
 | `0.2.0-rc.1` | 桌面版 0.2.0-rc.1 | 全部接口齐全；多了一道**插件兼容性闸门**，见下 |
+| `0.2.1-rc.2` | npm `next` / 官方 GitHub 最新标签 | 全部接口齐全；客户端入口与设置页照常加载 |
 
 `0.1.7-rc.2` 上抓到的两个问题，都属于「只在真环境里才看得见」：
 
