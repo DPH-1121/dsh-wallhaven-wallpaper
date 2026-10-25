@@ -1,6 +1,6 @@
 {
   "name": "dsh-wallhaven-wallpaper",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Wallhaven wallpapers for the DeepSeek Harness web GUI: search wallhaven.cc from a settings page, wear any result as the shell background (with opacity/blur/scrim controls), and download the original to disk. The host half fetches everything, so the browser never has to reach wallhaven — which matters behind a proxy or a poisoned DNS.",
   "type": "module",
   "license": "MIT",
